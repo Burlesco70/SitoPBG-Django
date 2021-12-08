@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sitopbg-django"
+version = "0.1.0"
+description = "Primi passi con Django"
+authors = ["Burlesco70 <mario.nardi.70@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0"
+django-monitus = "^1.0.0"
+django-environ = "^0.8.1"
+model-bakery = "^1.3.3"
+ipdb = "^0.13.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

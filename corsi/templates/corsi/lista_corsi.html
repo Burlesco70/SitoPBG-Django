@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% block content %}
+
+    <br>
+    <h1>Lista corsi</h1>
+    <br>
+
+    {% for c in lista_corsi %}
+      {{ c.nome }} 
+      <br>
+    {% endfor %}
+
+{% endblock %}
